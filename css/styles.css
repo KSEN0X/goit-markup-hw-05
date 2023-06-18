@@ -646,10 +646,6 @@ img {
   color: var(--footer-span-logo);
 }
 
-.footer-social-container {
-margin-right: 80px;
-}
-
 .footer-text {
   width: 264px;
 
@@ -694,6 +690,10 @@ margin-right: 80px;
 .footer-social-link:hover,
 .footer-social-link:focus {
   background-color: var(--footer-social-hover)
+}
+
+.footer-form-container {
+margin-left: 80px;
 }
 
 .footer-form {
@@ -741,6 +741,7 @@ color: #FFFFFF;
 display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 24px;
 
 
 min-width: 165px;

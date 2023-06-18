@@ -698,7 +698,7 @@ margin-right: 80px;
 
 .footer-form {
   display: flex;
-  
+  gap: 24px;
 }
 
 .footer-form-text {
@@ -741,7 +741,7 @@ color: #FFFFFF;
 display: flex;
 align-items: center;
 justify-content: center;
-margin-left: 24px;
+
 
 min-width: 165px;
 height: 40px;

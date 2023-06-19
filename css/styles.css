@@ -909,7 +909,7 @@ transition: border-color var(--transition-duration-and-function);
 }
 
 .modal-input:focus+ .input-icon {
-  fill: var(--input-icon-hover)
+  fill: var(--input-icon-hover);
 }
 
 .modal-field {
@@ -974,7 +974,6 @@ color: var(--check-text-color);
 
 .check-text span {
   display: inline-flex;
-  display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 8px;
@@ -986,7 +985,7 @@ color: var(--check-text-color);
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
 
-  transition: background-color var(--transition-duration-and-function), border var(--transition-duration-and-function)
+  transition: background-color var(--transition-duration-and-function), border var(--transition-duration-and-function), fill var(--transition-duration-and-function);
   }
 
 .input-check:checked+ .check-text span {

@@ -956,7 +956,7 @@ color: var(--modal-textarea-placeholder);
 }
 
 .check-text {
-display: flex;
+display: inline-flex;
 align-items: center;
 
 font-size: 12px;

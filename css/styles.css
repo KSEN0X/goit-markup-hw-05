@@ -972,7 +972,7 @@ color: var(--check-text-color);
   text-decoration: underline;
 }
 
-.check-text span {
+.modal-span-policy {
   display: inline-flex;
   justify-content: center;
   align-items: center;
